@@ -161,7 +161,7 @@ h6 {
 /* ----- suptitle ----- */
 .art-el-suptitle {
   margin-top: 5px;
-  color: rgb(100, 100, 102);
+  color: rgb(138, 138, 163);
   font-style: italic;
   font-size: 11px;
 }
@@ -1744,7 +1744,7 @@ content
   margin-bottom: 15px;
 }
 .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
-  color: rgb(100, 100, 102);
+  color: rgb(168, 168, 172);
   margin-left: auto;
   background: rgb(32, 32, 42);
   padding: 5px 15px;
@@ -1950,6 +1950,16 @@ content
   gap: 10px;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .art-service-svg-logo{
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
 }
 
 /* ----- footer ----- */
