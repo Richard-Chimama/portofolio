@@ -2502,4 +2502,56 @@ html.is-animating .fade-left {
   .transition-fade .art-price.art-popular-price {
     transform: scale(1);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* ----- tech-stack ----- */
+.tech-stack-wrapper {
+  width: 100%;
+}
+
+.tech-stack-summary {
+  display: none;
+  text-align: center;
+}
+
+.tech-stack-summary p {
+  margin: 0;
+}
+
+.tech-stack-summary .expand-btn {
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.tech-stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .tech-stack-summary {
+    display: block;
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .tech-stack-list {
+    display: none;
+  }
+
+  .tech-stack-list.expanded {
+    display: flex;
+  }
+}
+/* --- end of tech stack --- */
+
+
+/*# sourceMappingURL=style.css.map */

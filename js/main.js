@@ -677,3 +677,19 @@ $(function() {
   })
 
 });
+
+const year = new Date().getFullYear() - 1995;
+$('#age').text(year);
+
+const copyright = new Date().getFullYear()
+$('#copyright').text(copyright)
+
+$(document).ready(function () {
+  const $expandButton = $(".expand-btn");
+  const $techStackList = $(".tech-stack-list");
+
+  $expandButton.on("click", function () {
+    $techStackList.toggleClass("expanded");
+    $(this).text($techStackList.hasClass("expanded") ? "Collapse" : "Expand");
+  });
+});
