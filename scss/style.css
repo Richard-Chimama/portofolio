@@ -2081,6 +2081,8 @@ portfolio
   left: 15px;
   width: calc(100% - 29px);
   padding: 30px;
+  display:flex;
+  flex-direction: column;
   background: linear-gradient(159deg, rgba(45, 45, 58, 0.98) 0%, rgba(43, 43, 53, 0.98) 100%);
   box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   transform: translateY(100%);

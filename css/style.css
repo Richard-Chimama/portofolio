@@ -2728,5 +2728,10 @@ html.is-animating .fade-left {
   }
 }
 
+.ext-link-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
