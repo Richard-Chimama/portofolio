@@ -1,5 +1,19 @@
 const projects = [
     {
+        title: 'Zubo Property Rental Platform',
+        description: 'A comprehensive property rental platform for Zambia featuring interactive map-based search, property listings, and advanced filtering options for accommodation rentals.',
+        image: 'zubo.png',
+        link: 'https://www.myzub.com',
+        github: 'https://github.com/Richard-Chimama/zubuproject'
+    },
+    {
+        title: 'Yakaba Patient Transport',
+        description: 'A professional patient transportation service website providing safe, reliable, and compassionate non-emergency medical transport services available 24/7.',
+        image: 'yakaba.png',
+        link: 'https://www.yakaba-llc.com',
+        github: 'https://github.com/Richard-Chimama/yakaba-app'
+    },
+    {
         title: 'Space Tour App',
         description: 'Futuristic app that allow user to explore the space.',
         image: 'spacetour.png',
